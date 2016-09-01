@@ -1,0 +1,16 @@
+@import 'reset.css';
+body{background:#2C2C2A}
+.bg{margin:0 auto;width:806px;height:auto;}
+.hd .logo{width:540px;height:73px}
+.hd{position:relative}
+.hd .admin-login{position:absolute;top:20px;right:0;padding-top:10px;width:153px;height:21px;background:url(images/v1/background.png) no-repeat scroll 0 -57px}
+.hd .admin-login span{color:#FFF}
+.hd .nav{position:relative;padding:20px 0 0 20px;background:url(images/v1/background.png) no-repeat;width:806px;height:31px}
+.hd .nav ul li{float:left;margin-right:20px}
+.hd .nav ul li a,.hd .nav ul li span{background:url(images/v1/button.png) no-repeat;display:block;height:24px}
+.hd .nav ul li a,.hd .nav ul li a:hover{padding-left:5px;color:#000;text-decoration:none}
+.hd .nav ul li span{padding-right:5px;background-position:100% 0;line-height:24px}
+.hd .nav .search{position:absolute;top:16px;right:38px}
+.search-ipt,.search-btn{width:162px;height:26px;background:transparent;border:0}
+.search-btn{width:26px;cursor:pointer}
+

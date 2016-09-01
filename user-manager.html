@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户管理</title>
+<link rel="stylesheet" type="text/css" href="style/v1.css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/select.js"></script>
+</head>
+
+<body class="bg3">
+	<div id="manager">
+		<div class="content">
+            <div class="search">
+                <form action="#">
+                    <input type="text" id="search"  />
+                    <input type="submit" id="search-act" value="查   找" />
+                </form>
+            </div><!--search-->
+            <div class="sign">
+                <span></span><h3>用户</h3>  
+            </div>
+            <button type="button">添加用户</button>
+            <div class="count"><span class="all">All</span>(<span>1</span>) | <span class="adm">Administrator</span>(<span>1</span>)</div>
+        </div><!--content-->
+        <div id="admin-inf">
+            <table class="tb">
+                 <thead class="t-hd">
+                     <tr>
+                     	<th class="t-hd-lf"></th>
+                        <th class="select-all"><input type="checkbox" id="selectAll" /></th>
+                        <th class="username"><span>用户名</span></th>
+                        <th class="shortname"><span>昵称</span></th>
+                        <th class="mail"><span>邮箱</span></th>
+                        <th class="role"><span>角色</span></th>
+                        <th class="publish"><span>发布</span></th>
+                        <th class="t-hd-rt"></th>
+                     </tr>
+                 </thead>
+                 <tbody class="t-bd">
+                     <tr>
+                     	<td class="t-bd-lf"></th>
+                        <td class="select"><input type="checkbox" id="admin" /></td>
+                        <td class="username"><img src="#" alt="" title="管理员头像"/><span>admin</span></td>
+                        <td class="shortname"><span>&nbsp;</span></td>
+                        <td class="mail"><span>zhanghedong@gmail.com</span></td>
+                        <td class="role"><span>Administrator</span></td>
+                        <td class="publish"><span>1</span></td>
+                        <td class="t-bd-rt"></th>
+                     </tr>
+                 </tbody>
+                 <tfoot class="t-ft">
+                 	<tr>
+                    	<td class="t-ft-lf"><span>&nbsp;</span></td>
+                        <td class="select"><span>&nbsp;</span></td>
+                        <td class="username"><span>&nbsp;</span></td>
+                        <td class="shortname"><span>&nbsp;</span></td>
+                        <td class="mail"><span>&nbsp;</span></td>
+                        <td class="role"><span>&nbsp;</span></td>
+                        <td class="publish"><span>&nbsp;</span></td>
+                        <td class="t-ft-rt"><span>&nbsp;</span></td>
+                    </tr>
+                 </tfoot>
+            </table>
+            <div class="page ls-3">
+            	<ul>
+                	<li><a href="#"><</a></li>
+                	<li class="curr"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">></a></li>
+                </ul>
+            </div>
+            <div class="tb">
+                 
+            </div>
+        </div><!--admin-inf end-->
+            
+     </div>
+</body>
+</html>
